@@ -6,7 +6,8 @@ namespace HelloDIO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá Digital Innovation One!");
+            HelloDIO.Saudacoes saudacoes = new HelloDIO.Saudacoes();
+            Console.WriteLine(saudacoes.Saudacao("Olá Digital Innovation One!"));
         }
     }
 }
