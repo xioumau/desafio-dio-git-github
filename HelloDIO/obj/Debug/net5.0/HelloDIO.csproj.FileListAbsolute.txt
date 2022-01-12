@@ -1,0 +1,16 @@
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO.deps.json
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO.runtimeconfig.json
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO.runtimeconfig.dev.json
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO.dll
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/ref/HelloDIO.dll
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/bin/Debug/net5.0/HelloDIO.pdb
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.csproj.AssemblyReference.cache
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.GeneratedMSBuildEditorConfig.editorconfig
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.AssemblyInfoInputs.cache
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.AssemblyInfo.cs
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.csproj.CoreCompileInputs.cache
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.dll
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/ref/HelloDIO.dll
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.pdb
+/home/mauricio/vscodeProjects/Dio/desafio-dio-git-github/HelloDIO/obj/Debug/net5.0/HelloDIO.genruntimeconfig.cache
