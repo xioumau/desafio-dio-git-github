@@ -14,7 +14,12 @@ namespace HelloDIO
             p1.Nome = "Mauricio";
             p1.Idade = 38;
 
+            p1.SetEmail("mau@mail.com");
+            p1.SetTelefone("99191-8899");
+
             p1.Apresentar();
+            
+            Console.WriteLine(p1.ObterEmaileTelefone());
         }
     }
 }
