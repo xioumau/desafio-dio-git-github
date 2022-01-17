@@ -10,7 +10,7 @@ namespace HelloDIO.Models
         private string Email { get; set; }
         private string Telefone { get; set; }
 
-        public void Apresentar()
+        public virtual void Apresentar() // pode ser sobreescrito
         {
             Console.WriteLine($"\nOlá meu nome é {Nome} e tenho {Idade} anos");
         }

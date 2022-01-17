@@ -10,12 +10,17 @@ namespace HelloDIO
             Profissional profissional  = new();
             profissional.Nome = "Mauricio";
             profissional.Idade = 38;
+            profissional.Stack = ".NET";
+            profissional.AnosExperiencia = 1.5;
 
             profissional.Apresentar();
+            Console.WriteLine(profissional.Apresentar(4, "C#"));
 
             Atleta atleta = new();
             atleta.Nome = "Bill";
             atleta.Idade = 35;
+            atleta.Esporte = "Corrida";
+            atleta.Recorde = 7.65;
 
             atleta.Apresentar();
 
