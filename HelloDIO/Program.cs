@@ -7,19 +7,31 @@ namespace HelloDIO
     {
         static void Main(string[] args)
         {
-            HelloDIO.Saudacoes saudacoes = new HelloDIO.Saudacoes();
-            Console.WriteLine(saudacoes.Saudacao("Olá Digital Innovation One!"));
+            Profissional profissional  = new();
+            profissional.Nome = "Mauricio";
+            profissional.Idade = 38;
 
-            Pessoa p1 = new();
-            p1.Nome = "Mauricio";
-            p1.Idade = 38;
+            profissional.Apresentar();
 
-            p1.SetEmail("mau@mail.com");
-            p1.SetTelefone("99191-8899");
+            Atleta atleta = new();
+            atleta.Nome = "Bill";
+            atleta.Idade = 35;
 
-            p1.Apresentar();
+            atleta.Apresentar();
+
+            // HelloDIO.Saudacoes saudacoes = new HelloDIO.Saudacoes();
+            // Console.WriteLine(saudacoes.Saudacao("Olá Digital Innovation One!"));
+
+            // Pessoa p1 = new();
+            // p1.Nome = "Mauricio";
+            // p1.Idade = 38;
+
+            // p1.SetEmail("mau@mail.com");
+            // p1.SetTelefone("99191-8899");
+
+            // p1.Apresentar();
             
-            Console.WriteLine(p1.ObterEmaileTelefone());
+            // Console.WriteLine(p1.ObterEmaileTelefone());
         }
     }
 }
