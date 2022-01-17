@@ -2,7 +2,7 @@ using System;
 
 namespace HelloDIO.Models
 {
-    public class Pessoa
+    public abstract class Pessoa
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -14,6 +14,8 @@ namespace HelloDIO.Models
         {
             Console.WriteLine($"\nOlá meu nome é {Nome} e tenho {Idade} anos");
         }
+
+        public abstract void Estudar(); // deve ser sobreescrito
 
         public void SetEmail(string emai)
         {

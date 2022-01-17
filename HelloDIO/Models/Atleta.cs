@@ -11,5 +11,10 @@ namespace HelloDIO.Models
         {
             Console.WriteLine($"\nOlá, meu nome é {Nome}, pratico {Esporte} e meu recorde é {Recorde} km.");
         }
+
+        public override void Estudar()
+        {
+            Console.WriteLine($"\nEu estudo para ser um atleta melhor.");
+        }
     }
 }

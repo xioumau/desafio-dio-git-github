@@ -12,9 +12,14 @@ namespace HelloDIO
             profissional.Idade = 38;
             profissional.Stack = ".NET";
             profissional.AnosExperiencia = 1.5;
+            
+            profissional.SetEmail("prof@mail.com");
+            profissional.SetTelefone("99999-6655");
 
             profissional.Apresentar();
+            profissional.Estudar();
             Console.WriteLine(profissional.Apresentar(4, "C#"));
+            Console.WriteLine(profissional.ObterEmaileTelefone());
 
             Atleta atleta = new();
             atleta.Nome = "Bill";
@@ -22,7 +27,13 @@ namespace HelloDIO
             atleta.Esporte = "Corrida";
             atleta.Recorde = 7.65;
 
+            atleta.SetEmail("atleta@mail.com");
+            atleta.SetTelefone("99955-6565");
+
             atleta.Apresentar();
+            atleta.Estudar();
+            Console.WriteLine(atleta.ObterEmaileTelefone());
+
 
             // HelloDIO.Saudacoes saudacoes = new HelloDIO.Saudacoes();
             // Console.WriteLine(saudacoes.Saudacao("Olá Digital Innovation One!"));
