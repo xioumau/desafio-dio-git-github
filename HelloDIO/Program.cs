@@ -34,6 +34,11 @@ namespace HelloDIO
             atleta.Estudar();
             Console.WriteLine(atleta.ObterEmaileTelefone());
 
+            Cozinheiro cozinheiro = new();
+            cozinheiro.Nome = "Jeff";
+            // cozinheiro.Especialidade = "Cozinha Asiática";
+            Console.WriteLine(cozinheiro.Apresentar("Cozinha asiática"));
+
 
             // HelloDIO.Saudacoes saudacoes = new HelloDIO.Saudacoes();
             // Console.WriteLine(saudacoes.Saudacao("Olá Digital Innovation One!"));
@@ -41,7 +46,6 @@ namespace HelloDIO
             // Pessoa p1 = new();
             // p1.Nome = "Mauricio";
             // p1.Idade = 38;
-
             // p1.SetEmail("mau@mail.com");
             // p1.SetTelefone("99191-8899");
 
