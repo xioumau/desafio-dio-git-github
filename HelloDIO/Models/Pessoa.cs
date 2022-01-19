@@ -1,8 +1,9 @@
 using System;
+using HelloDIO.Interfaces;
 
 namespace HelloDIO.Models
 {
-    public abstract class Pessoa
+    public abstract class Pessoa : IPessoa
     {
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -17,9 +18,9 @@ namespace HelloDIO.Models
 
         public abstract void Estudar(); // deve ser sobreescrito
 
-        public void SetEmail(string emai)
+        public void SetEmail(string email)
         {
-            this.Email = emai;
+            this.Email = email;
         }
 
         public void SetTelefone(string telefone)
